@@ -1,0 +1,14 @@
+{
+  "name": "GIF Block",
+  "description": "Blocks GIFs.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "16.png",
+    "128": "128.png"
+  },
+  "permissions": ["contextMenus", "tabs", "webRequest", "webRequestBlocking", "*://*/*"]
+}
